@@ -1,0 +1,25 @@
+.about__title {
+    margin-bottom: 50px;
+}
+
+.about__skills {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.about__skills li::marker {
+    color: #05B4A7;
+}
+
+.about__informations {
+    font-size: 20px;
+    width: 500%;
+}
+
+.about__profile {
+    width: 100%;
+}
+
+.about__facts {
+    display: flex;
+}

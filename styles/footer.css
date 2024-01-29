@@ -1,0 +1,35 @@
+.footer__container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9FC5CE;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__socials li {
+    list-style: none;
+}
+
+.footer__socials svg {
+    margin: 30px;
+    color: white;
+}
+
+.social__link svg:hover {
+    color: #05B4A7;
+}
+
+.social__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+}
+
+small {
+    font-size: large;
+}

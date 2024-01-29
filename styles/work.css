@@ -1,0 +1,59 @@
+.work__title {
+    margin: 50px 0px;
+}
+
+.project__container {
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.project__image img{
+    max-width: 70%;
+}
+
+.work__cards {
+    display: flex;
+}
+
+.work__cards li {
+    list-style: none;
+}
+
+.project__title a {
+    text-decoration: none;
+    color: #05B4A7;
+}
+
+.project__title {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.project__description {
+    margin-bottom: 10px;
+}
+
+.project__technologies {
+    display: flex;
+    flex-direction: row;
+}
+
+.project__technologies li {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.project__links a, .project__links svg{
+    color: black;
+}
+
+.project__links a, .project__links svg:hover {
+    color: #05B4A7;
+}
+
+@media screen and (max-width:768px){
+    .work__cards {
+        display: block;
+    }
+}

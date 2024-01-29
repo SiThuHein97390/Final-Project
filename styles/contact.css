@@ -1,0 +1,13 @@
+.contact__title {
+    margin-top: 50px;
+}
+
+.contact__container h3{
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.contact__container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}

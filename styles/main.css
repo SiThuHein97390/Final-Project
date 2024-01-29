@@ -1,0 +1,8 @@
+main {
+    margin: 0px 40px;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}

@@ -1,0 +1,29 @@
+.home__section {
+    margin: 50px 0px;
+}
+
+.home__title, .home__name, .home__intro {
+    display: flex;
+}
+
+.home__title {
+    margin-bottom: 10px;
+    color: #05B4A7;
+}
+
+.home__name {
+    color: grey;
+    font-size:  100px;
+    font-weight: 500;
+}
+
+.home__intro {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.home__information {
+    font-size: 20px;
+}

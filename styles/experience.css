@@ -1,0 +1,50 @@
+.lesson__info-website {
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    padding: 50px 35px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.info {
+    width: 40%;
+}
+
+.website {
+    width: 60%;
+}
+
+.website a:hover {
+    color: white;
+    background-color: #05B4A7;
+}
+
+.experience__title {
+    margin: 50px 0px;
+}
+
+.experience__lessons li {
+    margin-left: 15px;
+    list-style-type: square;
+}
+
+.experience__lessons li::marker {
+    color: #05B4A7;
+}
+
+.project__title a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+    .lesson__info-website {
+        display: block;
+    }
+}
