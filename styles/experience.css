@@ -4,7 +4,7 @@
 
 .card {
     border: 2px solid black;
-    width: 400px;
+    width: 300px;
     height: 300px;
     padding: 50px 35px;
 }
@@ -17,8 +17,8 @@
     width: 40%;
 }
 
-.website {
-    width: 60%;
+.website iframe{
+    max-width: 60%;
 }
 
 .website a:hover {
